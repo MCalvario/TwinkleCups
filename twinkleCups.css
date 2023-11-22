@@ -1,0 +1,111 @@
+body {
+    background-color:rgb(199, 204, 206);
+}
+a {
+    color: rgb(203, 195, 195);
+    padding:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+/*This is my header with link effects and colors*/
+a:hover { color: rgb(255, 0, 106); }
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3a4449;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    font-style: italic;
+}
+/*hero banner effects*/
+.hero {
+    height: 400px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    font-style: italic;
+}
+/*hero title positionion and font effects*/
+#HeroTitle { position:right;
+    text-align: right;
+    text-shadow: 25px 25px 6px;
+    font-size: 40px;
+    letter-spacing: 6px;
+    padding: 40px 40px;
+    line-height: 1.5;
+}
+
+/*.me {
+}
+
+.me:hover {
+    box-shadow: 0 0 20px 5px #3a4449;
+  }*/
+
+
+
+.container {
+    display: grid;
+    align-items:center; 
+    grid-template-columns: 2fr 9fr 1fr;
+    column-gap: 150px;
+    padding: 30px 0px 10px 10px;
+   }
+   
+   .image2 {
+     width: 250px;
+     height: auto;
+     border-radius: 50%;
+     margin:%
+   }
+   
+   .text {
+     font-size: 25px;   
+     font-style: italic;
+     padding: 0px 0px 10px 20px;
+     text-align: left;
+   }
+
+img {
+    width: 350px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+    }
+
+
+/*This is the coding I used to achieve the look I wanted for my footer*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3a4449;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+section {
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+ 
+  
+img {
+    
+    background-color: rgb(203, 195, 195);
+    /* Margin property */
+    margin: 20px;
+    /* Padding property */
+    padding: 20px;
+    /* Border property */
+    border: 9px inset #3a4449;
+    cursor: pointer;   
+  }
+
+  img:hover {
+    box-shadow: 0 0 20px 5px rgb(255, 0, 106);
+  }
