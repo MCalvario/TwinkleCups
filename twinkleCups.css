@@ -1,111 +1,88 @@
 body {
-    background-color:rgb(199, 204, 206);
+    background-color:rgb(7, 7, 7);
 }
+
 a {
-    color: rgb(203, 195, 195);
+    color: rgb(87, 5, 100);
     padding:5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    text-decoration: none;
 }
+
 /*This is my header with link effects and colors*/
-a:hover { color: rgb(255, 0, 106); }
+a:hover { color: hotpink; }
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #3a4449;
-    color: #ffffff;
-    border-radius: 20px 20px 20px 20px;
-    font-style: italic;
+    background-color: rgb(22, 20, 22);
+    font-size: 25px;
 }
+
 /*hero banner effects*/
 .hero {
-    height: 400px;
+    height: 850px;
     width: 100%;
-    border-radius: 20px 20px 20px 20px;
     font-style: italic;
+    border: solid hotpink;
+    color: hotpink;
 }
+    
 /*hero title positionion and font effects*/
-#HeroTitle { position:right;
-    text-align: right;
-    text-shadow: 25px 25px 6px;
-    font-size: 40px;
+#HeroTitle { 
+    position: center;
+    text-align: center;
+    text-shadow: 35px 100px 12px;
+    font-size: 200px;
     letter-spacing: 6px;
     padding: 40px 40px;
     line-height: 1.5;
 }
 
-/*.me {
-}
-
-.me:hover {
-    box-shadow: 0 0 20px 5px #3a4449;
-  }*/
-
-
-
-.container {
-    display: grid;
-    align-items:center; 
-    grid-template-columns: 2fr 9fr 1fr;
-    column-gap: 150px;
-    padding: 30px 0px 10px 10px;
-   }
-   
-   .image2 {
-     width: 250px;
-     height: auto;
-     border-radius: 50%;
-     margin:%
-   }
-   
-   .text {
-     font-size: 25px;   
-     font-style: italic;
-     padding: 0px 0px 10px 20px;
-     text-align: left;
-   }
-
-img {
-    width: 350px;
-    height: auto;
+.cup1 {
+    width: 360px;
+    height: 400px;
     border-radius: 20px 20px 20px 20px;
+    padding: 50px;
+    }
+    
+.cup2 {
+    width: 360px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 50px;
     }
 
+.cup3 {
+    width: 360px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 50px;
+    }
 
 /*This is the coding I used to achieve the look I wanted for my footer*/
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #3a4449;
-    color: #ffffff;
-    border-radius: 20px 20px 20px 20px;
+    color: rgb(87, 5, 100);
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: rgb(22, 20, 22);
 }
-
-
-section {
-    text-align: center;
-    border-radius: 20px 20px 20px 20px;
-}
- 
-  
-img {
-    
-    background-color: rgb(203, 195, 195);
-    /* Margin property */
-    margin: 20px;
-    /* Padding property */
-    padding: 20px;
-    /* Border property */
-    border: 9px inset #3a4449;
-    cursor: pointer;   
-  }
 
   img:hover {
     box-shadow: 0 0 20px 5px rgb(255, 0, 106);
   }
+
+#Prices {
+    color: hotpink;
+    background-color: rgb(7, 7, 7);;
+    font-size: 30px;
+    font-weight: bolder;
+    justify-content: space-between;
+    padding: .5px;
+}
+  
